@@ -1,0 +1,35 @@
+{
+    "Microsoft.DataFactory/factories/linkedServices": {
+        "*": {
+            "properties": {
+                "parameters": {
+                    "AKVBaseURL": "="
+                },
+                "typeProperties": {
+                    "*": "="
+                }
+            }
+        }
+    },
+    "Microsoft.DataFactory/factories/integrationRuntimes": {
+        "properties": {
+            "typeProperties": {
+                "linkedInfo": {
+                   "resourceId": "="
+                }
+            }
+        }
+    },
+    "Microsoft.DataFactory/factories": {
+        "identity": {
+            "userAssignedIdentities": "="
+        }
+    },
+    "Microsoft.DataFactory/factories/credentials": {
+        "properties": {
+            "typeProperties": {
+                "resourceId": "="
+            }
+        }
+    }
+}
